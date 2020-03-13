@@ -9,7 +9,7 @@ test('click me text', () => {
     
 });
 
-test('make sure second person appears', () => {
+test('check if button text is rendering', () => {
     const { getByText } = render(<App/>);
     getByText(/you clicked/i);
 })

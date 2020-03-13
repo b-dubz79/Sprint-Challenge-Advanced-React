@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 import PlayerList from './PlayerList'
-import Counter from './Counter'
 
 class App extends React.Component {
   constructor(){
@@ -25,7 +24,6 @@ class App extends React.Component {
   render () {
   return (
     <div className="App">
-      <Counter />
       <PlayerList teamInfo={this.state.teamInfo}/>
     </div>
   );
